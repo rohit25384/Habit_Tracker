@@ -1,4 +1,4 @@
-const API_URL = "./cars.json";
+const API_URL = "https://api-1-h5h7.onrender.com/api/cars";
 
 const statusText = document.getElementById("statusText");
 const categorySelect = document.getElementById("categorySelect");
