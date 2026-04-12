@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DriveLine Motor House</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="panel">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Premium Vehicle Collection</p>
+            <h1>DriveLine Motor House</h1>
+            <p id="statusText" class="subtitle">Preparing the showroom collection.</p>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div>
+            <h2>Drive your dream.</h2>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <div class="field">
+            <span>Category</span>
+            <select id="categorySelect">
+              <option value="all">All Categories</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <span>Brand</span>
+            <select id="brandSelect">
+              <option value="all">All Brands</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <span>Sort By</span>
+            <select id="sortSelect">
+              <option value="default">Featured First</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="mileage-low">Mileage: Low to High</option>
+              <option value="mileage-high">Mileage: High to Low</option>
+              <option value="brand">Brand: A to Z</option>
+              <option value="category">Category: A to Z</option>
+            </select>
+          </div>
+        </div>
+
+        <p id="resultsInfo" class="results-info">Preparing showroom inventory...</p>
+        <div id="carGrid" class="product-grid"></div>
+        <p id="emptyMessage" class="empty-message">No cars match the current filters.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

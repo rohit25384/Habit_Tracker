@@ -1,0 +1,57 @@
+[
+  { "id": 1, "name": "BMW M4 Competition", "brand": "BMW", "country": "Germany", "type": "New", "bodyType": "Coupe", "price": 15500000, "mileage": "10 km/l", "kmDriven": 0, "image": "https://di-uploads-pod23.dealerinspire.com/bmwofowingsmills/uploads/2024/07/P90548593_highRes_the-all-new-bmw-m4-c-1.jpg" },
+  { "id": 2, "name": "BMW X5", "brand": "BMW", "country": "Germany", "type": "Used", "bodyType": "SUV", "price": 7200000, "mileage": "12 km/l", "kmDriven": 30000, "image": "https://hips.hearstapps.com/hmg-prod/images/2024-bmw-x5-m60i-134-6602d491051b2.jpg?crop=0.702xw:0.591xh;0.131xw,0.276xh&resize=2048:*" },
+
+  { "id": 3, "name": "Audi A4", "brand": "Audi", "country": "Germany", "type": "Used", "bodyType": "Sedan", "price": 3800000, "mileage": "15 km/l", "kmDriven": 40000, "image": "https://cdn-s3.autocarindia.com/Audi/a4/SK5_8253.jpg?w=640" },
+  { "id": 4, "name": "Audi Q7", "brand": "Audi", "country": "Germany", "type": "New", "bodyType": "SUV", "price": 9000000, "mileage": "11 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9sHMwKvmc-u-mMgSd3XuaeJfDaITro9n-x9IKGmZoHokZjBhp87Ccm_aMUo4GBgURVeaUd_S7cytvxosTB0odpcBR1LeEHX0_MFgLN0J3&s=10" },
+  { "id": 5, "name": "Audi RS5", "brand": "Audi", "country": "Germany", "type": "New", "bodyType": "Coupe", "price": 11000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfBhOv7FbsqRLvBlx0ptPSHDEeBZN6p7-TVWPPT-JEqeCu4FC4TAbMWj-Ssba8WuhNZr3d8RWyiVFgRQOXGehMEP3bpdDXZRwmxCd0fcTOLg&s=10" },
+
+  { "id": 6, "name": "Mercedes-Benz C-Class", "brand": "Mercedes-Benz", "country": "Germany", "type": "New", "bodyType": "Sedan", "price": 6500000, "mileage": "16 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgLVYpIQZoj1D7BcyLnVJyAIqs_zJHJuwBkTn9I9A3Jhk6ZZuhW46W-A_5hoMAdXL-vc57F8KWpqFMxWVic2LeIRMF8kW3FgHFXMQXdPvs&s=10" },
+  { "id": 7, "name": "Mercedes-Benz GLE", "brand": "Mercedes-Benz", "country": "Germany", "type": "Used", "bodyType": "SUV", "price": 8000000, "mileage": "12 km/l", "kmDriven": 35000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQi34sHlqaH7e8ZVElEzHCkQw3nMkzrJDMwcKjaP8MC-79sfRG0WJVbvDIYuLk_lj6LQF7mvF7sasr4sqPbu8pKhzk6xDQJpvIUxUtTS-I&s=10" },
+  { "id": 8, "name": "Mercedes-Benz E-Class", "brand": "Mercedes-Benz", "country": "Germany", "type": "New", "bodyType": "Sedan", "price": 7800000, "mileage": "14 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS16YZozDwWXKXY5v4cDliaoNM48QwqXJH6JE6jMXmE6opZ5cM-FDSk30vk4L4H729vXqePaneGF8IolrbPZ4m5RST5iSaLX0wH_bC_3Vz&s=10" },
+
+  { "id": 9, "name": "Volkswagen Polo", "brand": "Volkswagen", "country": "Germany", "type": "Used", "bodyType": "Hatchback", "price": 900000, "mileage": "18 km/l", "kmDriven": 50000, "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/09q2/267376/2009-volkswagen-polo-review-car-and-driver-photo-284748-s-original.jpg?resize=640:*" },
+  { "id": 10, "name": "Volkswagen Tiguan", "brand": "Volkswagen", "country": "Germany", "type": "New", "bodyType": "SUV", "price": 3500000, "mileage": "15 km/l", "kmDriven": 0, "image": "https://hips.hearstapps.com/hmg-prod/images/2026-volkswagen-tiguan-sel-r-line-turbo-avocado-pr-107-67fe9bc628452.jpg?crop=0.641xw:0.546xh;0.216xw,0.324xh&resize=1200:*" },
+  { "id": 11, "name": "Volkswagen Passat", "brand": "Volkswagen", "country": "Germany", "type": "Used", "bodyType": "Sedan", "price": 2500000, "mileage": "17 km/l", "kmDriven": 60000, "image": "https://imgd.aeplcdn.com/642x336/cw/ec/22548/Volkswagen-Passat-Headlamps-135233.jpg?wm=0&q=80" },
+
+  { "id": 12, "name": "Porsche 911 Carrera", "brand": "Porsche", "country": "Germany", "type": "New", "bodyType": "Sports", "price": 22000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRChZF9-RIJkm3VQlX2MHdbsyxBUO4zQEug&s" },
+  { "id": 13, "name": "Porsche Cayenne", "brand": "Porsche", "country": "Germany", "type": "Used", "bodyType": "SUV", "price": 12000000, "mileage": "10 km/l", "kmDriven": 25000, "image": "https://cdn.motor1.com/images/mgl/y2PgRq/s1/2024-porsche-cayenne.jpg" },
+
+  { "id": 14, "name": "Ford Mustang GT", "brand": "Ford", "country": "USA", "type": "Used", "bodyType": "Muscle", "price": 7500000, "mileage": "8 km/l", "kmDriven": 27000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Yk1Ydpv9fHRcWZJw3s-4DXQaIXfza2eC3g&s" },
+  { "id": 15, "name": "Ford Explorer", "brand": "Ford", "country": "USA", "type": "New", "bodyType": "SUV", "price": 5000000, "mileage": "11 km/l", "kmDriven": 0, "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2020_Ford_Explorer_%28sixth_generation%29_3.jpg" },
+  { "id": 16, "name": "Ford F-150", "brand": "Ford", "country": "USA", "type": "New", "bodyType": "Pickup", "price": 6000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1liWiTyqhtg5jqlpjxBskquTPuJrVvLf5A&s"},
+  
+  { "id": 17, "name": "Chevrolet Camaro", "brand": "Chevrolet", "country": "USA", "type": "New", "bodyType": "Muscle", "price": 6800000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Natg9_4bNJoj2T3yjc_Er2x9GF1PJPBbdQ&s" },
+
+  { "id": 18, "name": "Jaguar F-Type", "brand": "Jaguar", "country": "UK", "type": "Used", "bodyType": "Sports", "price": 9000000, "mileage": "10 km/l", "kmDriven": 22000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcm3zu4_fRedP0rGOCYTUe8d_B1ajQqa9yig&s" },
+
+  { "id": 19, "name": "Land Rover Defender", "brand": "Land Rover", "country": "UK", "type": "New", "bodyType": "SUV", "price": 11000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdq0eDuKyByzDEciqLT-VwqBJ3BLhKB2LHOQ&s" },
+
+
+  { "id": 20, "name": "Peugeot 3008", "brand": "Peugeot", "country": "France", "type": "New", "bodyType": "SUV", "price": 2500000, "mileage": "18 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCjLEg2cNdTT9WckKn-Kqm4bAymBvimLv-A&s" },
+
+  { "id": 21, "name": "Skoda Octavia", "brand": "Skoda", "country": "Czech Republic", "type": "New", "bodyType": "Sedan", "price": 3000000, "mileage": "19 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJd6FUF7InJ1NoHVHEAblIzPt7OwIKUohIy3Kevr36pNDyyaKXf_mJxMh5C9wuMuc53yNkds7Q6vAwhnsh5kpBCRFqZP78utTeDzGbXTr4vg&s=10" },
+  { "id": 22, "name": "Skoda Kodiaq", "brand": "Skoda", "country": "Czech Republic", "type": "Used", "bodyType": "SUV", "price": 3200000, "mileage": "16 km/l", "kmDriven": 38000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDt3aeUKUeNzmdu_lWCAmje9LzZrxXH2soMT2dy8JJAm4EfQwdZ8TVTiMHt07uSEiuj3VIKzrjInNHHkmJMFJFma6LYYehBALKceB7Di4wnw&s=10" },
+
+  { "id": 23, "name": "Mini Cooper S", "brand": "Mini", "country": "UK", "type": "New", "bodyType": "Hatchback", "price": 3500000, "mileage": "17 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSCuCxCD8S0Wi6gj5_C50oc5OISiFy4CvtLU-47jGiyz91-ZO2vBcGWVWH0wmFTZm4kAdojvCUJFtrtNjU-Fb6pPXAbDnZPjEjDFwI8be&s=10" },
+
+  { "id": 24, "name": "Bentley Continental GT", "brand": "Bentley", "country": "UK", "type": "New", "bodyType": "Coupe", "price": 50000000, "mileage": "7 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTBUrBaQvkyoHr0Z7RIHHwh1jvxAaHLhkAbdoFqXVKwosVux4Ra4EnAFP4kv8xYY9w50EczuFhVsHGrUYaBwkzZW_JqBdNoyD0aCi49UdA&s=10" },
+
+  { "id": 25, "name": "Rolls-Royce Ghost", "brand": "Rolls-Royce", "country": "UK", "type": "New", "bodyType": "Sedan", "price": 70000000, "mileage": "6 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWqJ6_aV9RC6rKAszTtjesxS6H8DZBonZy1ols5oxCQHKRwuVercyrWjkYpTi1aSUMLeg0ckY1WkGhSkbLvnVNG0CbEm-AtCaBBM-vyuQIAg&s=10" },
+
+  { "id": 26, "name": "Jeep Wrangler", "brand": "Jeep", "country": "USA", "type": "Used", "bodyType": "SUV", "price": 4000000, "mileage": "10 km/l", "kmDriven": 30000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHPa1VX-HleJ7pBQuhlV5jJQcVU4VCk4X_K2ix4IG4haD__hRUmKtVR0WGdThNpnsqQB3eUUda0F4_1MqPog-GNNYVgUa80qgeTFFmtBpTQ&s=10" },
+  { "id": 27, "name": "Jeep Grand Cherokee", "brand": "Jeep", "country": "USA", "type": "New", "bodyType": "SUV", "price": 6000000, "mileage": "11 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp-82V_FwYK1CDXcrvg8FTA_F17kChzKDHErliERxba6T6ZRYTINmzlXrTY0EdMV3JqmrbIVo1mM9-Z2jOsKesI-IU400beJKNiqla5cgY9g&s=10" },
+
+  { "id": 28, "name": "Cadillac Escalade", "brand": "Cadillac", "country": "USA", "type": "New", "bodyType": "SUV", "price": 12000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://www.cadillac.com/content/dam/cadillac/na/us/english/index/vehicles/2026/electric/escalade-iql/overview/staggered/my26-escalade-iql-mov-gallery-staggered-exterior-front-v2.jpg?imwidth=3000" },
+
+  { "id": 29, "name": "Lincoln Navigator", "brand": "Lincoln", "country": "USA", "type": "New", "bodyType": "SUV", "price": 11000000, "mileage": "9 km/l", "kmDriven": 0, "image": "https://www.assets.lincoln.com/adobe/assets/urn:aaid:aem:0fcc3aa2-202c-482a-8083-b342481f1eef/as/LNCLN_NAV_BLACK_LABEL_SUNSHINE_COPPER_ENGLIGHTEN_18901_V1.webp?max-quality=75&crop-names=1_8%3A9&width=2000&origin[layer1]=0p,0p&origin=0p,0p&layers=layer1" },
+
+  { "id": 30, "name": "Bugatti Chiron", "brand": "Bugatti", "country": "France", "type": "New", "bodyType": "Hypercar", "price": 150000000, "mileage": "5 km/l", "kmDriven": 0, "image": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Bugatti/Chiron/8451/1633582433934/front-left-side-47.jpg?tr=w-664" },
+
+  { "id": 31, "name": "McLaren 720S", "brand": "McLaren", "country": "UK", "type": "New", "bodyType": "Sports", "price": 35000000, "mileage": "7 km/l", "kmDriven": 0, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcSCLs90O67lGYyB8NQQkCimjFC8yxhITngaFcWsV3rUxFQU1iMHIJBpVQ7r6KYDr-lMmdQQ-SdJmKv2SPuzTSqTLtlzQzjHK_XN_lRI0c9A&s=10" },
+
+  { "id": 32, "name": "Aston Martin DB11", "brand": "Aston Martin", "country": "UK", "type": "Used", "bodyType": "Coupe", "price": 25000000, "mileage": "8 km/l", "kmDriven": 20000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQntW3dKUiaxcj-IjNJDTYiA1xe9dR24NvRjoKGs-FdtXv_guQq1trG7NzD3Ek1bjDi-okE76ly18oD9HuswXhxcIxw26rxJSpYa8pI0GgwwA&s=10" },
+
+  { "id": 33, "name": "Fiat 500", "brand": "Fiat", "country": "Italy", "type": "Used", "bodyType": "Hatchback", "price": 800000, "mileage": "22 km/l", "kmDriven": 60000, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsTDAWDIxCjocEH2zT9xONU0ZBkAEXeNKat-gGjfbPFwAApOocQ3xsQmSEs4qBI_71VHB9YNZ-NcfySf3mkvHLo3l0fWFx5TQpbzBJcgWtg&s=10" }
+
+]
