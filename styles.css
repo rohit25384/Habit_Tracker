@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   padding: 32px;
   border-radius: 28px;
-  background: rgba(11, 0, 29, 0.88);
+  background: rgba(19, 5, 41, 0.88);
   border: 0.5px solid #ffffff;
   box-shadow: 0 30px 90px rgba(199, 186, 186, 0.34);
 
@@ -161,7 +161,7 @@ h1 {
   padding: 13px 14px;
   border: 1px solid #5f4a59;
   border-radius: 16px;
-  background: linear-gradient(135deg, #8f5c70, #6a485d);
+  background: rgba(47, 37, 53, 0.95);
   color: #fff4ef;
   font: inherit;
   font-weight: 700;

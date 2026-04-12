@@ -102,6 +102,11 @@ function createCard(car) {
   const card = document.createElement("div");
   card.className = "product-card";
 
+    const imageLink = document.createElement("a");
+  imageLink.href = car.image;
+  imageLink.target = "_blank";
+  imageLink.rel = "noopener noreferrer";
+  
   const image = document.createElement("img");
   image.className = "product-image";
   image.src = car.image;
@@ -152,6 +157,10 @@ function createCard(car) {
   content.appendChild(details);
   content.appendChild(footer);
   card.appendChild(image);
+  card.appendChild(content);
+
+  imageLink.appendChild(image);
+  card.appendChild(imageLink);
   card.appendChild(content);
 
   return card;
