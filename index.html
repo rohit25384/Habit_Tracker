@@ -52,6 +52,31 @@
           </div>
         </div>
 
+        <div class="compare-box">
+          <p class="compare-title">Compare Two Cars</p>
+          <div class="compare-controls">
+            <div class="field">
+              <span>First Car</span>
+              <select id="firstCarSelect">
+                <option value="">Select first car</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <span>Second Car</span>
+              <select id="secondCarSelect">
+                <option value="">Select second car</option>
+              </select>
+            </div>
+
+            <div class="field compare-button-box">
+              <span>Compare</span>
+              <button id="compareButton" type="button">Show Comparison</button>
+            </div>
+          </div>
+          <div id="compareResult" class="compare-result"></div>
+        </div>
+
         <p id="resultsInfo" class="results-info">Preparing showroom inventory...</p>
         <div id="carGrid" class="product-grid"></div>
         <p id="emptyMessage" class="empty-message">No cars match the current filters.</p>

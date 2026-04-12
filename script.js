@@ -1,9 +1,13 @@
-const API_URL = "./Cars.json";
+const API_URL = "./cars.json";
 
 const statusText = document.getElementById("statusText");
 const categorySelect = document.getElementById("categorySelect");
 const brandSelect = document.getElementById("brandSelect");
 const sortSelect = document.getElementById("sortSelect");
+const firstCarSelect = document.getElementById("firstCarSelect");
+const secondCarSelect = document.getElementById("secondCarSelect");
+const compareButton = document.getElementById("compareButton");
+const compareResult = document.getElementById("compareResult");
 const resultsInfo = document.getElementById("resultsInfo");
 const carGrid = document.getElementById("carGrid");
 const emptyMessage = document.getElementById("emptyMessage");
@@ -30,6 +34,7 @@ function showOptions(selectBox, items) {
 function fillDropdowns() {
   const categories = [];
   const brands = [];
+  const carNames = [];
 
   for (let i = 0; i < cars.length; i += 1) {
     if (!categories.includes(cars[i].bodyType)) {
@@ -39,13 +44,18 @@ function fillDropdowns() {
     if (!brands.includes(cars[i].brand)) {
       brands.push(cars[i].brand);
     }
+
+    carNames.push(cars[i].name);
   }
 
   categories.sort();
   brands.sort();
+  carNames.sort();
 
   showOptions(categorySelect, categories);
   showOptions(brandSelect, brands);
+  showOptions(firstCarSelect, carNames);
+  showOptions(secondCarSelect, carNames);
 }
 
 function carMatchesFilters(car) {
@@ -147,6 +157,81 @@ function createCard(car) {
   return card;
 }
 
+function findCarByName(name) {
+  for (let i = 0; i < cars.length; i += 1) {
+    if (cars[i].name === name) {
+      return cars[i];
+    }
+  }
+
+  return null;
+}
+
+function createCompareCarBlock(car) {
+  const box = document.createElement("div");
+  box.className = "compare-car";
+
+  const image = document.createElement("img");
+  image.className = "compare-image";
+  image.src = car.image;
+  image.alt = car.name;
+
+  const title = document.createElement("h3");
+  title.textContent = car.name;
+
+  const info = document.createElement("p");
+  info.className = "compare-text";
+  info.textContent =
+    car.brand +
+    " from " +
+    car.country +
+    ". Price: " +
+    formatPrice(car.price) +
+    ". Mileage: " +
+    car.mileage +
+    ". Distance driven: " +
+    car.kmDriven.toLocaleString("en-IN") +
+    " km. Category: " +
+    car.bodyType +
+    ".";
+
+  box.appendChild(image);
+  box.appendChild(title);
+  box.appendChild(info);
+
+  return box;
+}
+
+function showComparison() {
+  compareResult.innerHTML = "";
+
+  if (firstCarSelect.value === "" || secondCarSelect.value === "") {
+    compareResult.textContent = "Select two cars to compare.";
+    return;
+  }
+
+  if (firstCarSelect.value === secondCarSelect.value) {
+    compareResult.textContent = "Please choose two different cars.";
+    return;
+  }
+
+  const firstCar = findCarByName(firstCarSelect.value);
+  const secondCar = findCarByName(secondCarSelect.value);
+
+  if (!firstCar || !secondCar) {
+    compareResult.textContent = "Could not find one of the selected cars.";
+    return;
+  }
+
+  const compareCard = document.createElement("div");
+  compareCard.className = "compare-card";
+
+  compareCard.appendChild(createCompareCarBlock(firstCar));
+  compareCard.appendChild(createCompareCarBlock(secondCar));
+
+  compareResult.appendChild(compareCard);
+}
+
 function renderCars() {
   carGrid.innerHTML = "";
 
@@ -198,5 +283,6 @@ async function loadCars() {
 categorySelect.addEventListener("change", renderCars);
 brandSelect.addEventListener("change", renderCars);
 sortSelect.addEventListener("change", renderCars);
+compareButton.addEventListener("click", showComparison);
 
 loadCars();
